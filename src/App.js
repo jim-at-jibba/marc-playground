@@ -26,7 +26,7 @@ const App = () => {
     <div className='App'>
       <h1>Menu</h1>
       {data.map((item, index) => (
-        <MenuItem key={`${item.id}${index}`} foo={item} />
+        <MenuItem key={item.id} foo={item} />
       ))}
     </div>
   );
